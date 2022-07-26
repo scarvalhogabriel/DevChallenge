@@ -13,6 +13,7 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 
 - Desafio feito por: [Thaysa.](https://github.com/thaysagomes?tab=repositories)
 - Link do desafio: [SelfCare.](https://devchallenge.vercel.app/challenges/5f14fad2130a5d78f89d9642/details)
+- Deploy: [Link.](https://62e04727ae051105315b2b6c--dapper-bombolone-3ff046.netlify.app/)
 
 # 🧑‍💻Techs
 

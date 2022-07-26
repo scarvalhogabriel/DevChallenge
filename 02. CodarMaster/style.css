@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --main-color: #d6000d;
+  --secundary-color: #dadada;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+.wrapper {
+  max-width: 425px;
+  margin-inline: auto;
+  padding-inline: 5rem;
+
+  overflow: auto;
+}
+
+/* <============ HOME ============>*/
+#home-logo {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#home-logo h1 {
+  font-size: 4.7rem;
+  font-style: italic;
+  color: var(--main-color);
+}
+
+#home-logo h1 span {
+  color: black;
+}
+
+#home-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home-menu ul li a {
+  text-decoration: none;
+
+  font-size: 1.8rem;
+  color: black;
+}
+
+#home-img {
+  margin-bottom: 4rem;
+}
+
+#home-content p {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+#home-content h1 {
+  color: var(--main-color);
+  font-size: 4.5rem;
+}
+
+#home-btn {
+  margin-top: 3rem;
+}
+
+#home-section {
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+}
+
+#home-btn button {
+  padding: 1.4rem;
+  width: 90%;
+
+  border: none;
+  border-radius: 0.9rem;
+
+  background-color: var(--main-color);
+
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  transition: filter 0.2s;
+}
+
+#home-btn button:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+#home-menu-btn {
+  display: none;
+}
+
+/* <============ SERVICES ============>*/
+#services-img {
+  margin-bottom: 4rem;
+}
+
+.fa-solid {
+  color: var(--main-color);
+  padding-right: 2rem;
+}
+
+#services-list {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+#services-list li {
+  padding: 1rem;
+  font-size: 1.9rem;
+}
+
+/* <============ CONTACT ============>*/
+#contact-section {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
+
+#contact-section .wrapper p {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+#contact-input input {
+  padding: 1.45rem;
+  width: 70%;
+
+  border: none;
+  border-radius: 0.9rem;
+
+  background-color: var(--secundary-color);
+
+  margin-top: 3rem;
+}
+
+#contact-input input::placeholder {
+  font-size: 1.6rem;
+}
+
+#contact-btn {
+  margin-top: 1rem;
+}
+
+#contact-btn button {
+  padding: 1.4rem;
+  width: 70%;
+
+  border: none;
+  border-radius: 0.9rem;
+
+  background-color: var(--main-color);
+
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: filter 0.2s;
+}
+
+#contact-btn button:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+/* <============ CARDS ============>*/
+.red-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+
+  background-color: var(--main-color);
+  position: absolute;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.card {
+  background-color: var(--secundary-color);
+  padding: 1.8rem;
+  border-radius: 1.3rem;
+}
+
+.card p {
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.comment,
+.institute {
+  font-size: 1.42rem;
+}
+
+.person-name,
+.institute {
+  font-weight: 500;
+}
+
+.person-name {
+  margin-top: 1rem;
+  font-size: 2.4rem;
+}
+
+.box1,
+.box2 {
+  border: solid 2px black;
+  width: 100%;
+  height: 200px;
+  background-color: #d6000d;
+}
+
+/* <============ FOOTER ============>*/
+footer {
+  margin-top: 3rem;
+  color: white;
+  background-color: black;
+  padding-bottom: 5rem;
+  padding-top: 4.3rem;
+}
+
+footer h3 {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+#footer-logo h1 {
+  font-style: italic;
+  font-size: 4.7rem;
+}
+
+#footer-logo p {
+  margin-bottom: 3rem;
+}
+
+#footer-about,
+#footer-contact {
+  text-align: left;
+}
+
+#footer-about h3 {
+  margin-bottom: 1.3rem;
+}
+
+#footer-contact {
+  margin-block: 2.2rem;
+}
+
+#footer-contact p {
+  margin-block: 1.3rem;
+}
+
+.fa-brands {
+  color: var(--main-color);
+  font-size: 4.8rem;
+}
+
+#footer-social-links {
+  text-align: left;
+}
+
+#footer-social-links h3 {
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+
+#footer-social-links a {
+  padding-right: 1.4rem;
+}
+
+/* <============ RESPONSIVIDADE ============>*/
+
+@media screen and (min-width: 1000px) {
+  /* <============ GERAL ============>*/
+  body {
+    text-align: initial;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    padding-inline: 10rem;
+
+    overflow: auto;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* <============ HOME ============>*/
+  header {
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #home-logo {
+    margin-block: 0;
+  }
+
+  #home-menu ul {
+    display: flex;
+    align-items: center;
+
+    gap: 8rem;
+  }
+
+  #home-menu-btn {
+    display: initial;
+  }
+
+  #home-menu-btn button {
+    display: initial;
+
+    border-radius: 0.9rem;
+    border: none;
+    background-color: var(--main-color);
+    padding: 1rem;
+    width: 13rem;
+
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    transition: filter 0.2s;
+  }
+
+  #home-menu-btn button:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+  }
+
+  #home-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #home-img {
+    width: 40%;
+  }
+
+  /* <============ SERVICES ============>*/
+
+  #services-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+
+  #services-img {
+    width: 40%;
+    text-align: center;
+  }
+
+  /* <============ CONTACT ============>*/
+
+  #contact-content {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  #contact-input,
+  #contact-btn {
+    margin: 0;
+  }
+
+  #contact-input input,
+  #contact-btn button {
+    margin: 0;
+    width: 25rem;
+  }
+
+  /* <============ CARDS ============>*/
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  /* <============ FOOTER ============>*/
+  footer .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}

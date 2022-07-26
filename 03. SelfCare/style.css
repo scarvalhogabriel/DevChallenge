@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --green-principal: hsl(93, 68%, 39%);
+  --grey-input: hsl(0, 2%, 64%);
+  --black: hsl(0, 0%, 9%);
+  --white: hsl(0, 0%, 98%);
+  --footer-background: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  padding-inline: 3.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* <============= HEADER =============> */
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+#nav-list {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-item {
+  transition: transform 0.3s;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  transform: scale(1.4) ;
+}
+
+
+/* <============= BANNER =============> */
+#banner img {
+  width: 100%;
+}
+
+/* <============= AFTER-BANNER =============> */
+#after-banner .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-block: 2.2rem;
+}
+
+#after-banner .wrapper p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+#after-banner .wrapper p:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  color: var(--black);
+}
+
+/* <============= PRODUCTS-LIST =============> */
+#products-list .wrapper {
+  margin-top: 2.8rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template: auto auto auto auto auto/ auto auto;
+
+  grid-row-gap: 2.7rem;
+  grid-column-gap: 9.24rem;
+}
+
+.product-box img {
+  width: 100%;
+}
+
+.product-box {
+  transition: transform 0.3s;
+}
+
+.product-box:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.product-title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.4rem;
+
+  margin-top: 0.56rem;
+  margin-bottom: 0.85rem;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.4rem;
+}
+
+.product-price span {
+  color: var(--green-principal);
+  font-size: 1.7rem;
+}
+
+#products-list hr {
+  margin-top: 8rem;
+}
+
+/* <============= INFORMATION =============> */
+#information {
+  background-color: var(--footer-background);
+}
+
+#information-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+
+  padding-top: 3.5rem;
+  margin-bottom: 5.4rem;
+}
+
+#information-content a p {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+}
+
+#newsletter {
+  padding-bottom: 4.2rem;
+}
+
+#newsletter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+#newsletter p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+#newsletter input {
+  width: 100%;
+  height: 4.3rem;
+  border-radius: 0.3rem;
+  border: 0.39px solid #d9d9d9;
+}
+
+#newsletter input::placeholder {
+ 
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: var(--grey-input);
+
+  padding-left: 1.2rem;
+}
+
+#newsletter button {
+  background-color: var(--green-principal);
+  border: none;
+  border-radius: 0.3rem;
+  height: 4.3rem;
+  width: 100%;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.01em;
+  transition: filter 0.2s;
+}
+
+#newsletter button:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+
+footer {
+  background-color: var(--footer-background);
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 2.7rem;
+  padding-bottom: 3.2rem;
+}
+
+#social-links {
+  display: flex;
+  gap: 1.4rem;
+}
+
+#credit-cards-symbol {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+/* <============= RESPONSIVIDADE =============> */
+@media screen and (min-width: 668px) {
+  #information .wrapper {
+    display: grid;
+    grid-template: auto/ auto auto;
+  }
+
+  #newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    padding-inline: 7rem;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .product-container {
+    grid-template: auto auto auto/ auto auto auto;
+  
+    grid-row-gap: 2.7rem;
+    grid-column-gap: 12.24rem;
+  }
+
+  #newsletter {
+    justify-content: start;
+    padding-top: 3.5rem;
+  }
+
+ #newsletter-container {
+  flex-direction: row;
+  gap: 0.4rem;
+ } 
+
+ #newsletter button {
+  width: 15.2rem;
+ }
+}

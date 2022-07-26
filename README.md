@@ -1,6 +1,6 @@
 # 👨🏻‍💻 DevChallenge
 
-Solução para o desafio proposto pelo projeto [DevChallenge.](https://devchallenge.vercel.app/)
+Solução para os desafios propostos pelo projeto [DevChallenge.](https://devchallenge.vercel.app/)
 
 O [DevChallenge](https://devchallenge.vercel.app/) é um projeto que visa contribuir com a evolução de desenvolvedores, disponibilizando desafios para que possam praticar, 
 melhorar suas skills e criarem seus portfólios.

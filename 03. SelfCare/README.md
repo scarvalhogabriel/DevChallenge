@@ -22,12 +22,12 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 # 📲 Mobile 
 
 <div align="center">
-<img src="https://github.com/scarvalhogabriel/SelfCare/blob/main/assets/demo_github/mobile_version.png"/>
+<img src="https://github.com/scarvalhogabriel/DevChallenge/blob/main/03.%20SelfCare/assets/demo_github/mobile_version.png"/>
 </div>
 
 
 # 🖥️ Desktop 
 
 <div align="center">
-<img src="https://github.com/scarvalhogabriel/SelfCare/blob/main/assets/demo_github/desktop_version.png"/>
+<img src="https://github.com/scarvalhogabriel/DevChallenge/blob/main/03.%20SelfCare/assets/demo_github/desktop_version.png"/>
 </div>

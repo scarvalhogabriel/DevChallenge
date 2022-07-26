@@ -13,6 +13,7 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 
 - Desafio feito por: [Lorena.](https://github.com/Lorenalgm)
 - Link do desafio: [Codar.](https://devchallenge.vercel.app/challenges/5ed47992adee277fae224a0b/details)
+- Deploy: [Link.](https://stirring-unicorn-2f0d71.netlify.app)
 
 # 🧑‍💻Techs
 
@@ -22,12 +23,12 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 # 📲 Mobile 
 
 <div align="center">
-<img src="https://github.com/scarvalhogabriel/Codar./blob/main/assets/mobile_version.png"/>
+<img src="https://github.com/scarvalhogabriel/DevChallenge/blob/main/02.%20CodarMaster/assets/mobile_version.png"/>
 </div>
 
 
 # 🖥️ Desktop 
 
 <div align="center">
-<img src="https://github.com/scarvalhogabriel/Codar./blob/main/assets/desktop_version.png"/>
+<img src="https://github.com/scarvalhogabriel/DevChallenge/blob/main/02.%20CodarMaster/assets/desktop_version.png"/>
 </div>

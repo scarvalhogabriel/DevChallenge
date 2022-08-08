@@ -15,7 +15,7 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 - Link do desafio: [SelfCare.](https://devchallenge.vercel.app/challenges/5f14fad2130a5d78f89d9642/details)
 - Deploy: [Link.](https://62e04727ae051105315b2b6c--dapper-bombolone-3ff046.netlify.app/)
 
-# 🧑‍💻Techs
+# 👨🏻‍💻 Techs
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)

@@ -13,7 +13,7 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 
 - Desafio feito por: [Lorena.](https://github.com/Lorenalgm)
 - Link do desafio: [Amazing Graph.](https://devchallenge.vercel.app/challenges/5ec9a7fc10e94a38493d3910/details)
-- Deploy: [Link.](https://elaborate-youtiao-b0fd5e.netlify.app)
+- Deploy: [Link.](https://zingy-gumption-d5f428.netlify.app)
 
 # 👨🏻‍💻 Techs
 

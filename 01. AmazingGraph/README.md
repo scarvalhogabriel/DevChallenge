@@ -15,7 +15,7 @@ Projeto realizado com o intenção de por em prática os conceitos de HTML e CSS
 - Link do desafio: [Amazing Graph.](https://devchallenge.vercel.app/challenges/5ec9a7fc10e94a38493d3910/details)
 - Deploy: [Link.](https://elaborate-youtiao-b0fd5e.netlify.app)
 
-# 🧑‍💻Techs
+# 👨🏻‍💻 Techs
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
